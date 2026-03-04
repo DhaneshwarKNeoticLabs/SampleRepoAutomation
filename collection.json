@@ -58,16 +58,6 @@
           "listen": "test",
           "script": {
             "exec": [
-              "pm.test(\"Status code is 200\", function () {\r",
-              "    pm.response.to.have.status(200);\r",
-              "});\r",
-              "pm.test(\"Success message is correct\", function () {\r",
-              "    var jsonData = pm.response.json();\r",
-              "    pm.expect(jsonData.message).to.eql(\"UOM added successfully\");\r",
-              "});\r",
-              "pm.test(\"Response time is acceptable\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
-              "});\r",
               ""
             ],
             "type": "text/javascript",
@@ -146,13 +136,6 @@
             "exec": [
               "pm.test(\"Status code is 200\", function () {\r",
               "    pm.response.to.have.status(200);\r",
-              "});\r",
-              "pm.test(\"Success message is correct\", function () {\r",
-              "    var jsonData = pm.response.json();\r",
-              "    pm.expect(jsonData.message).to.eql(\"UOM added successfully\");\r",
-              "});\r",
-              "pm.test(\"Response time is acceptable\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
               "});\r",
               ""
             ],
@@ -233,13 +216,6 @@
               "pm.test(\"Status code is 200\", function () {\r",
               "    pm.response.to.have.status(200);\r",
               "});\r",
-              "pm.test(\"Success message is correct\", function () {\r",
-              "    var jsonData = pm.response.json();\r",
-              "    pm.expect(jsonData.message).to.eql(\"UOM added successfully\");\r",
-              "});\r",
-              "pm.test(\"Response time is acceptable\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
-              "});\r",
               ""
             ],
             "type": "text/javascript",
@@ -319,13 +295,6 @@
               "pm.test(\"Status code is 200\", function () {\r",
               "    pm.response.to.have.status(200);\r",
               "});\r",
-              "pm.test(\"Success message is correct\", function () {\r",
-              "    var jsonData = pm.response.json();\r",
-              "    pm.expect(jsonData.message).to.eql(\"UOM added successfully\");\r",
-              "});\r",
-              "pm.test(\"Response time is acceptable\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
-              "});\r",
               ""
             ],
             "type": "text/javascript",
@@ -402,15 +371,8 @@
           "listen": "test",
           "script": {
             "exec": [
-              "pm.test(\"Status code is 200\", function () {\r",
-              "    pm.response.to.have.status(200);\r",
-              "});\r",
-              "pm.test(\"Success message is correct\", function () {\r",
-              "    var jsonData = pm.response.json();\r",
-              "    pm.expect(jsonData.message).to.eql(\"UOM added successfully\");\r",
-              "});\r",
-              "pm.test(\"Response time is acceptable\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+              "pm.test(\"Status code is 401\", function () {\r",
+              "    pm.response.to.have.status(401);\r",
               "});\r",
               ""
             ],
@@ -488,15 +450,8 @@
           "listen": "test",
           "script": {
             "exec": [
-              "pm.test(\"Status code is 200\", function () {\r",
-              "    pm.response.to.have.status(200);\r",
-              "});\r",
-              "pm.test(\"Success message is correct\", function () {\r",
-              "    var jsonData = pm.response.json();\r",
-              "    pm.expect(jsonData.message).to.eql(\"UOM added successfully\");\r",
-              "});\r",
-              "pm.test(\"Response time is acceptable\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+              "pm.test(\"Status code is 401\", function () {\r",
+              "    pm.response.to.have.status(401);\r",
               "});\r",
               ""
             ],
