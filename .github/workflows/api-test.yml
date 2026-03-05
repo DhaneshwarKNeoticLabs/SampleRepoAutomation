@@ -32,7 +32,7 @@ jobs:
           newman run collection.json \
           -e environment.json \
           -r cli,htmlextra \
-          --reporter-htmlextra-export report.html
+          --reporter-htmlextra-export index.html
 
       - name: Deploy report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
